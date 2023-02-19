@@ -13,7 +13,7 @@ cel.addEventListener('input', function() {
 fah.addEventListener('input', function() {
     let f = this.value;
     let c = (f - 32) * 5 / 9;
-    let k = (f + 459.67) * 5 / 9;
+    let k = (parseFloat(f) + 459.67) * 5 / 9;
     cel.value = c.toFixed(3);
     kel.value = k.toFixed(3);
 });
