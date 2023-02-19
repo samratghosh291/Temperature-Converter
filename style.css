@@ -6,7 +6,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 height: 100vh;
-background-image: linear-gradient(180deg, rgb(226, 186, 186), yellow);
+background-image: linear-gradient(180deg, rgb(226, 186, 186), rgb(216, 216, 68));
 }
 
 .content{
@@ -27,6 +27,7 @@ background: linear-gradient(to right, #da1b61b8, #ff88009c);
    
 }
 h2{
+  font-family: 'Phudu', cursive;
   font-size: larger;
   text-align: center;
 }
@@ -36,7 +37,7 @@ h2{
     border-radius: 5px;
     background-color: transparent;
     margin-bottom: 20px;
-
+    
   }
 
 input{
