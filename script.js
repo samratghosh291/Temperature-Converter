@@ -20,6 +20,9 @@ fah.addEventListener('input', function() {
 
 kel.addEventListener('input', function() {
     let k = this.value;
+    if(k<0){
+        k=0;
+    }
     let c = k - 273.15;
     let f = c * 9 / 5 + 32;
     fah.value = f.toFixed(3);
